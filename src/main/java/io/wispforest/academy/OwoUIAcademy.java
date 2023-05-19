@@ -32,7 +32,7 @@ public class OwoUIAcademy implements ClientModInitializer {
                         .child(Components.label(
                                 Text.empty()
                                         .append(Text.literal("! ").formatted(Formatting.YELLOW, Formatting.BOLD))
-                                        .append(" Press ")
+                                        .append(" Presssss ")
                                         .append(KeyBindingHelper.getBoundKeyOf(BEGIN).getLocalizedText().copy().formatted(Formatting.BLUE))
                                         .append(" to\nbegin owo-ui Academy")
                         ).horizontalTextAlignment(HorizontalAlignment.CENTER).shadow(true))
